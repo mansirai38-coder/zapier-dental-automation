@@ -1,0 +1,27 @@
+# Secrets & credentials — never commit these
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+token.json
+client_secret*.json
+*apikey*
+*api_key*
+secrets/
+
+# Zapier / OAuth exports that may contain live tokens or webhook secrets
+zapier-export*.json
+*webhook*secret*
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Real patient data — only files under examples/ (fake data) should ever be committed
+real-data/
+*patients-real*
+*.xlsx
+!examples/*.json
