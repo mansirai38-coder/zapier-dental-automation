@@ -1,0 +1,10 @@
+{
+  "_comment": "Example of a single Google Form submission that triggers the workflow. All values are fictional/test data — no real patient information.",
+  "Patient Name": "John Doe",
+  "Email": "john@example.com",
+  "Phone": "+1-555-0100",
+  "Patient Type": "New Patient",
+  "Preferred Date": "2026-09-14",
+  "Preferred Time": "10:30",
+  "Reason for Visit": "Routine Dental Check-up"
+}
